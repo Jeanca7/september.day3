@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Bootstrap Sample</title>
+    <style>
+        body {
+            background-image: url("images/background.jpg");
+        }
+        .navbar {
+            background: url("images/curry.jpg") no-repeat;
+        }
+
+        nav ul li a {
+            color: white;
+        }
+        
+         nav a:hover {
+            color: red;
+         }
+    .navbar-brand{
+        font-family: 'Yellowtail', cursive;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm">
+        <a class="navbar-brand" href="#">India Spice</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Restaurants</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Our food</a>
+                    <div class="dropdown-menu">
+                        <video width="600">
+                            <source src="video/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Who we are</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col md-4 mb-0.5">
+                <img src="images/logo.png" height="250" width="250" class="mb-5">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col sm-4">
+                <img src="images/curry.jpg" height="200" width="200">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugit facere, iusto voluptatibus? Quam rem beatae incidunt aliquam cum neque voluptatum officiis fuga pariatur unde!</p>
+                <button type="button" class="btn btn-primary btn-lg">Our Dishes</button>
+            </div>
+            <div class="col md-4">
+                <img src="images/spices.jpg" height="200" width="200">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima sequi sapiente error deleniti, reiciendis voluptate exercitationem, quae commodi molestias neque hic illo? Nobis, aliquam. Cumque?</p>
+                <button type="button" class="btn btn-primary btn-lg">Our Ingredients</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
